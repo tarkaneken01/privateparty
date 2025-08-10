@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import BookingNavbar from "@/components/BookingNavbar";
+import MemberNavbarSwitcher from "@/components/MemberNavbarSwitcher";
 
 export const metadata: Metadata = {
   title: "Member — Private Party",
@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 export default function MemberLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-[#050505] text-white">
-      <BookingNavbar />
-      <div className="pt-16">{children}</div>
+      <MemberNavbarSwitcher />
+      <div>{children}</div>
     </div>
   );
 }

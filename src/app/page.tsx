@@ -30,7 +30,7 @@ export default function Home() {
               </h1>
               <div className="mt-8">
                 <a
-                  href="#apply"
+                  href="/membership#apply-form"
                   className="inline-flex items-center justify-center rounded-full bg-white text-black px-6 py-3 text-sm sm:text-base font-medium transition-colors hover:bg-neutral-200"
                 >
                   Apply for membership
